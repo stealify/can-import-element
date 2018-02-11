@@ -1,5 +1,6 @@
 # can-import-element
 A WebComponent Version of can-view-import supporting styles default behavior like can-view-import
+integrates as self executing script tag like steal-element.
 
 
 ## Idea
