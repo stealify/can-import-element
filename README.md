@@ -64,3 +64,18 @@ document.head.appendChild(link);
 var content = document.querySelector(link).import; // => document.fragment
 ```
 
+goals
+- import a complet html body into a can-import-element
+- import a complet rendered can-component fragment from body into a can-import-element
+
+
+```html
+<can-import-element from="me.html" type="" />
+
+<can-import-element from="me.html" type="">
+ promise => document
+... insert Document here???
+</can-import-element>
+
+```
+
